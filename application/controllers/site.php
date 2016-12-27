@@ -8,9 +8,9 @@ class Site extends CI_Controller {
 		$this->load->view('login');
 	}
 
-	public function userprofile()
+	public function user_profile()
 	{
-		$this->load->view('userprofile');
+		$this->load->view('user_profile');
 	}
 
 	public function user_message()
@@ -27,4 +27,10 @@ class Site extends CI_Controller {
 	{
 		$this->load->view('text_confirmation');
 	}
+
+	public function site_functions()
+	{
+		$this->load->view('site_functions');
+	}
+
 }

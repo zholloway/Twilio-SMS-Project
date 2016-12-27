@@ -2,7 +2,7 @@
 <?php
   include ("/Applications/MAMP/htdocs/CodeIgniter/application/models/twilio_SMS.php");
 
-  $message->sid;
+  $message->sid; // This sends the SMS to the recipient number
 ?>
 
 <html>

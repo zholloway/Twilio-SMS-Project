@@ -6,7 +6,6 @@ include ("/Applications/MAMP/htdocs/CodeIgniter/application/models/site_function
 <html>
   <body>
     <?php
-    var_dump($_POST);
     if (login_check($connect, $_POST["username"],$_POST["password"]) != "verified")
     {
       echo login_check($connect, $_POST["username"],$_POST["password"]);

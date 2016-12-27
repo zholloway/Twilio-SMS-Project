@@ -11,7 +11,8 @@ function login_check($database, $username, $password)
 {
     $query = "SELECT *
               FROM users
-              WHERE username = '" .$username ."'AND password = '" .$password ."'";
+              WHERE username = '" .$username ."'
+                    AND password = '" .$password ."'";
     $result = mysqli_query($database, $query);
     $count = mysqli_num_rows($result);
 
